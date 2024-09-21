@@ -1,0 +1,39 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnail files
+._*
+
+# General temporary files
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Build output
+dist/
+build/
+
+# IDE files
+.idea/
+.vscode/
+
+# Other system files
+*.bak
+*.orig

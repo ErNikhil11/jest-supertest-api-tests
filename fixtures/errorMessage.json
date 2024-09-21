@@ -1,0 +1,10 @@
+{
+  "loginErrorMessages": {
+    "invalidUser": "user not found",
+    "passwordMissing": "Missing password",
+    "emailMissing": "Missing email or username"
+  },
+  "registrationErrorMessages": {
+    "undefinedEmail_User": "Note: Only defined users succeed registration"
+  }
+}

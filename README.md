@@ -1,10 +1,35 @@
-# Project Running Instructions
+# 🧪 API Automation – Jest and Supertest
 
-## Overview
+This project demonstrates a **real-world API testing scenario**, focused on validating and automating the **user login** and **registration** functionalities of a backend system. It showcases both **manual and automated testing skills**, along with structured bug reporting — all essential skills for a **Software Development Engineer in Test (SDET)** role.
 
-This project is designed for API testing using **Supertest** and **Jest**. The structure includes dedicated folders for fixtures, test cases, and bug reports to enhance organization and clarity.
+> 🚀 Designed to reflect practical QA workflows, this repository highlights my expertise in JavaScript-based test automation, API validation, test case design, and issue documentation.
 
-## Project Structure
+---
+
+## 📌 Project Overview
+
+The goal of this project is to ensure the robustness and reliability of the authentication APIs by:
+
+- Testing key user flows like registration and login
+- Validating error handling and status codes
+- Documenting test cases and bugs for transparency and reproducibility
+- Automating functional tests using Jest
+
+---
+
+## 🧰 Tech Stack
+
+| Layer        | Tools/Frameworks              |
+| ------------ | ----------------------------- |
+| Language     | JavaScript                    |
+| Test Runner  | Jest                          |
+| Assertion    | Built-in Jest                 |
+| Reporting    | Markdown-based manual reports |
+| Bug Tracking | Markdown-based API bug logs   |
+
+---
+
+# Project Structure
 
 - **tests/**: Contains individual test files for various API endpoints, ensuring they behave as expected.
 
@@ -18,11 +43,26 @@ This project is designed for API testing using **Supertest** and **Jest**. The s
 
 This structured approach ensures clarity and efficiency in testing and documentation, making it easier for developers to contribute and maintain the project.
 
-# Running Instructions
+## ✅ Test Case Strategy
 
-## Overview
+- **Manual Testing**: Clear, markdown-based test cases covering both happy path and edge cases.
+- **Automation**: Functional test scripts using Jest to validate response codes, payloads, and error scenarios.
+- **Negative Testing**: Checks for invalid data, missing fields, incorrect formats, and unauthorized access.
 
-This project utilizes **Supertest** and **Jest** for API testing. Follow the instructions below to set up and run the project.
+---
+
+## 🐞 Bug Reporting
+
+Bugs are logged in markdown documents and include:
+
+- Descriptive title
+- Clear reproduction steps
+- Expected vs. Actual behavior
+- Severity & priority tags
+
+This reflects strong documentation habits for issue tracking and QA audits.
+
+---
 
 ## Prerequisites
 
